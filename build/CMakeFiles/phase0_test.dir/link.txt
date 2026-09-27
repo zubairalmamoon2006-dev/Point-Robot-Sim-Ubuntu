@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/phase0_test.dir/src/main_phase0.cpp.o -o phase0_test  librobot_core.a 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc librobot_core.a CMakeFiles/robot_core.dir/src/Robot.cpp.o CMakeFiles/robot_core.dir/src/PController.cpp.o
-/usr/bin/ranlib librobot_core.a

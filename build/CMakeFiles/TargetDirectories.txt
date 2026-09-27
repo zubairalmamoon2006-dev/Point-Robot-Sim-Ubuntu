@@ -1,5 +1,0 @@
-/home/zubairalmamoon/point-robot-sim/build/CMakeFiles/robot_core.dir
-/home/zubairalmamoon/point-robot-sim/build/CMakeFiles/phase0_test.dir
-/home/zubairalmamoon/point-robot-sim/build/CMakeFiles/phase1_test.dir
-/home/zubairalmamoon/point-robot-sim/build/CMakeFiles/edit_cache.dir
-/home/zubairalmamoon/point-robot-sim/build/CMakeFiles/rebuild_cache.dir
