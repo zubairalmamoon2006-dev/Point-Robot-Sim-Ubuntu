@@ -2,18 +2,26 @@
 // placeholder — filled in next
 #include "Vec2.hpp"
 
-enum class IntegrationScheme { SemiImplicitEuler, RK4 };
+enum class IntegrationScheme
+{
+    SemiImplicitEuler,
+    RK4
+};
 
-class Robot {
+class Robot
+{
 public:
     Vec2 position;
     Vec2 velocity;
     Vec2 acceleration;
+
+    double maxVelocity = 1e9;     // effectively unlimited unless set
+    double maxAcceleration = 1e9; // effectively unlimited unless set
 
     void step(double dt, IntegrationScheme scheme = IntegrationScheme::SemiImplicitEuler);
 
 private:
     void stepSemiImplicitEuler(double dt);
     void stepRK4(double dt);
+    void enforceAccelerationLimit();
 };
-

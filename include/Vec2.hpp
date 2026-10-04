@@ -29,6 +29,16 @@ struct Vec2
         return *this;
     }
 
+    Vec2 clampedTo(double maxMag) const
+    {
+        double n = norm();
+        if (n > maxMag && n > 1e-12)
+        {
+            return (*this) * (maxMag / n);
+        }
+        return *this;
+    }
+
     double norm() const
     {
         return std::sqrt(x * x + y * y);

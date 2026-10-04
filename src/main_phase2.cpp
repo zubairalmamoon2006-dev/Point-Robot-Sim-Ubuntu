@@ -65,5 +65,5 @@ int main()
     int maxSteps = 3000; // 30s — long enough to reach steady state
 
     runPD(target, 20.0, 8.944, dt, maxSteps);       // your Phase 1 Trial 4 gains
-    runPID(target, 20.0, 8.0, 8.944, dt, maxSteps); // same Kp/Kd, small Ki added
+    runPID(target, 20.0, 2.0, 8.944, dt, maxSteps); // same Kp/Kd, small Ki added
 }

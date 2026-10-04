@@ -19,3 +19,6 @@ target_link_libraries(phase1_test PRIVATE robot_core)
 
 add_executable(phase2_test src/main_phase2.cpp)
 target_link_libraries(phase2_test PRIVATE robot_core)
+
+add_executable(phase3_test src/main_phase3.cpp)
+target_link_libraries(phase3_test PRIVATE robot_core)
